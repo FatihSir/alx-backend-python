@@ -12,4 +12,4 @@ def floor(n: float) -> int:
     Return:
         int: The floor of b
     """
-    return round(n)
+    return int(n)
