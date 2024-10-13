@@ -2,7 +2,7 @@
 """to_str Function"""
 
 
-def floor(n: float) -> str:
+def to_str(n: float) -> str:
     """
     A function that convert  float to string representation.
 
