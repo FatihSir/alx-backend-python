@@ -4,7 +4,7 @@
 
 def concat(str1: str, str2: str) -> str:
     """
-    A function that adds two numbers
+    A function that adds two strings
 
     Arguments:
         str1 (str): The first string
