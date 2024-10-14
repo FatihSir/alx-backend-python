@@ -4,7 +4,7 @@
 
 import asyncio
 import time
-wait_random = __import__('1-concurrent_coroutines').wait_random
+wait_n = __import__('1-concurrent_coroutines').wait_random
 
 
 async def measure_time(n: int, max_delay: int) -> float:
@@ -17,7 +17,7 @@ async def measure_time(n: int, max_delay: int) -> float:
             max_delay (int): Maximum delay to pass to wait_random
 
         Returns:
-            List[float]: List of delays in the order of completion
+            float: Delays in the order of completion
     """
     start = time.perf_counter()
     asyncio.run(wait_n(n, max_delay))
