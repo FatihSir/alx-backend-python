@@ -7,7 +7,7 @@ import time
 wait_random = __import__('1-concurrent_coroutines').wait_random
 
 
-async def wait_n(n: int, max_delay: int) -> float:
+async def measure_time(n: int, max_delay: int) -> float:
     """
         Spawns wait_random n times with a specified max_delay,
         returns the list of delays in the order they are completed.
